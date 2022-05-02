@@ -13,3 +13,9 @@
 # Properties-> C/C++ -> Code generation:
     Security Check (Disable Security Check (/GS-))
     Control flow protection (No)
+
+
+# TODO
+
+Replace KeAttachProcess with my Custom AttachProcess
+https://github.com/EBalloon/Rw-No-Attach
