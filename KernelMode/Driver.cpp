@@ -150,7 +150,7 @@ DECLSPEC_NOINLINE INT64 __fastcall Khg_Function(PVOID a1, PVOID a2, PVOID a3, PV
 				{
 					SIZE_T Bytes = 0;
 					g_Imports->MmCopyVirtualMemory(Process, args->Address, g_Imports->IoGetCurrentProcess(), &args->result, args->size, KernelMode, &Bytes);
-					g_Imports->DbgPrintEx(0, 0, "result: %llu", args->result);
+					g_Imports->DbgPrintEx(0, 0, "Result: %llu", args->result);
 				}
 			}
 			break;
