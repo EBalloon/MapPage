@@ -8,9 +8,9 @@
 
 
 # Visual studio project
-# Properties-> C/C++ -> Optimization
+# Properties -> C/C++ -> Optimization
     Full program optimization (Yes (/GL))
-# Properties-> C/C++ -> Code generation
+# Properties -> C/C++ -> Code generation
     Security Check (Disable Security Check (/GS-))
     Control flow protection (No)
 
